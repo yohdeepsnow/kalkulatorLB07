@@ -15,11 +15,14 @@ def pembagian(a,b):
 def pangkatdua(a):
 	total = a*a
 	return total
-
+def pangkattiga(a):
+	total = a*a*a
+	return total
 def main():
 	print (penambahan(10,5))
 	print (pengurangan(10,5))
 	print (perkalian(10,5))
 	print (pembagian(10,5))
 	print (pangkatdua(5))
+	print (pangkattiga(5))
 main()
