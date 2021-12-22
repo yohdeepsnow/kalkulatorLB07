@@ -1,3 +1,4 @@
+
 def penambahan(a,b):
 	total = a+b
 	return total
@@ -12,6 +13,7 @@ def perkalian(a,b):
 def pembagian(a,b):
 	total = a/b
 	return total
+
 def pangkatdua(a):
 	total = a*a
 	return total
@@ -26,3 +28,4 @@ def main():
 	print (pangkatdua(5))
 	print (pangkattiga(5))
 main()
+
